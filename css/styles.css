@@ -10472,10 +10472,37 @@ section#contact .text-muted {
   color: #fff;
 }
 
+.owl-theme {
+  max-height: 300px;
+  overflow: hidden;
+}
 
-section#notas .card-container {
-  display: flex;
-  justify-content: space-around;
+.owl-nav {
+  position: absolute;
+  top: 230px; 
+  left: 0;
+}
+
+.owl-nav button {
+  font-size: 40px !important;
+  margin-right: 0px;
+  margin-left: 15px;
+  color: #fff !important;
+}
+
+section#notas .card img{
+  height: 200px;
+  object-fit: cover;
+}
+
+
+section#notas .card{
+  margin-bottom: 20px;
+}
+
+
+.col-md-4 {
+  margin: 0 auto;
 }
 
 .footer {
